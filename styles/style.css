@@ -1,0 +1,186 @@
+/* font popin 700 */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+/* common style or utlities */
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFFFFF;
+     
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
+
+
+/* header part start */
+
+.header-container{
+    width: 100%;
+    background-color: #2D25A0;
+    /* margin-bottom: 10px; */
+    
+}
+
+
+.top-area{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-left: 156px;
+    
+}
+
+
+
+/* .toparea .banner-photo img{
+    width: 556.01px;
+    height: 438px;
+} */
+
+.top-area .banner-photo img{
+    width: 556.01px;
+    height: 438px;
+    margin-right: 140px;
+}
+
+.banner-hading{
+    /* font-size: 64px; */
+    color: #FFFFFF;
+    margin-right: 102px;
+}
+
+.banner-button{
+  background-color: #E02C6D; 
+  border: none;
+  color: white;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 168px;
+  height: 44px;
+  margin-bottom: 169px;
+  transition: width 2s;
+   
+}
+
+.banner-button:hover {
+    width: 300px;
+  }
+
+
+
+/* players section */
+
+.container{
+    width: 780px;
+}
+
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 27px;
+    grid-column-gap: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.player{
+    /* width: 330px;
+    height: 474px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    padding: 15px; */
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    padding: 15px;
+}
+
+.player .thumblain{
+    width: 300px;
+    height: 256px;
+}
+
+.player-detailes{
+    width: 300px;
+    height: 154px;
+    overflow: hidden;
+}
+
+.player-title{
+    color: #18191F;
+    font-size: 28px;
+}
+
+.player-detail{
+    color: #6C6C6C;
+    font-size: 16px;
+    /* overflow: hidden; */
+}
+
+
+
+
+.players .player img{
+    width: 300px;
+    height: 256px;
+    margin: 0;
+    padding: 0%;
+}
+
+
+/* footer area start */
+
+.footer-area{
+    width: 483.87px;
+    height: 213px;
+    /* justify-content: center;
+    align-items: center; */
+    margin-top: 150px;
+    /* background-color: green; */
+    /* display: grid;
+    grid-template-columns: repeat(1,1fr); */
+}
+
+.footer-area .football-logo-footer img{
+    /* width: 483.87px;
+    height: 110px; */
+    width: 100%;
+}
+/* .icon-footer, .copyright-footer{
+     margin-left: 30%;
+     margin-right: 25%;
+     
+} */
+
+.copyright-footer{
+    margin-left: 30%;
+     margin-right: 15%;
+}
+
+.icon-footer{
+    margin-left: 45%;
+    margin-right: 30%;
+}
+
+.copyright-footer span{
+    font-size: 18px;
+}
+
+
+
+/* media quary */
+
+ 
+
+ 
+ 
